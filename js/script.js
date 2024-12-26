@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Scroll Animation
-    const timeline = document.querySelector('.timeline-container');
-    const timelineItems = document.querySelectorAll('.timeline-item');
+    const timeline = document.querySelector('.journey-container');
+    const timelineItems = document.querySelectorAll('.journey-item');
 
     function isInViewport(element) {
         const rect = element.getBoundingClientRect();
